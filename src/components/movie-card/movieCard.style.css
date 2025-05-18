@@ -1,0 +1,17 @@
+.movie-card__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem;
+  border-bottom: 1px solid #1a4870;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.movie-card__container:hover {
+  background-color: #eef5ff;
+}
+
+.movie-card__container p {
+  margin: 0;
+}
